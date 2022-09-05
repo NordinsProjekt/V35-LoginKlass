@@ -1,0 +1,50 @@
+﻿@page "/login"
+@using System.ComponentModel.DataAnnotations;
+@using Interfaces
+@inject ILogin _login;
+<PageTitle>Login User</PageTitle>
+<h3>Login @latestInfo</h3>
+@if (_login.IsLoggedIn() == false)
+{
+    <EditForm Model="@_form" OnSubmit="@OnSubmit">
+        <label for="Email">Email: </label>
+        <InputText class="form-control" id="Email" @bind-Value="_form.Email" />
+
+        <label for="Password">Password: </label>
+        <InputText type="password" class="form-control" id="Password" @bind-Value="_form.Password" />
+
+        <input type="submit" class="btn btn-primary" value="Login" />
+    </EditForm>
+}
+
+@code {
+    private FormPost _form = new();
+    private string latestInfo = "";
+
+    protected override void OnInitialized()
+    {
+
+    }
+    void OnSubmit()
+    {
+        try
+        {
+            if (_login.LoginUser(_form.Email, _form.Password))
+                latestInfo = "Inloggning lyckades";
+            else
+                latestInfo = "Inloggning misslyckades";
+        }
+        catch (Exception ex)
+        {
+            latestInfo = ex.Message.ToString();
+        }
+    }
+
+    public class FormPost
+    {
+        [Required]
+        public string Email { get; set; }
+        [Required]
+        public string Password { get; set; }
+    }
+}

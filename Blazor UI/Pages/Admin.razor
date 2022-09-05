@@ -1,0 +1,22 @@
+﻿@page "/admin"
+@using Interfaces
+@using System.ComponentModel.DataAnnotations
+@inject ILogin _login;
+@inject GlobalChat.Chat _chat;
+
+@if (_login.GetUserRole() == "Admin" && _login.IsLoggedIn())
+{
+    <PageTitle>Secret Admin Page</PageTitle>
+    <h3>Admin</h3>
+    <p>Välkommen @_login.GetUserName()</p>
+}
+else
+{
+    <PageTitle>Losers corner</PageTitle>
+    <h3>Loser</h3>
+    <p>Välkommen loser!!!</p>
+}
+
+@code {
+
+}

@@ -1,0 +1,64 @@
+﻿@using GlobalChat;
+@using Interfaces;
+@using System.ComponentModel.DataAnnotations;
+@using System.Timers
+@inject GlobalChat.Chat _chat;
+@inject ILogin _login;
+@page "/chat";
+<h3>Chat</h3>
+<div class="chatbox">
+    @foreach (var msg in _chat.GetAllMessages())
+    {
+        @msg.ShowMessage()
+        ;
+        <br />
+    }
+</div>
+@if (_login.IsLoggedIn())
+{
+    <EditForm Model="@_form" OnSubmit="@OnSubmit">
+        <label for=" Message">Meddelande: </label>
+        <InputText id="Message" Width="400px" @bind-Value="_form.Message" />
+        <input type="submit" class="btn btn-primary" value="Post" />
+    </EditForm>
+}
+else
+{
+    <br /><br />
+    <p>Du måste logga in för att kunna använda chatten</p>
+}
+
+@code {
+    //Visa en lista på inloggade användare
+    //Visa meddelanden som skrivs
+    //Admin ska ha röda namn
+    private FormPost _form = new();
+    private Timer time = new Timer()
+        {
+            AutoReset = true, Enabled = true, Interval = 500
+        };
+    public void OnSubmit()
+    {
+        _chat.Post(_login.GetUserName(), _form.Message);
+        _form = new();
+    }
+    //Exempel som inte använder HUB :) Funkar fint.
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            time.Elapsed += OnTimeInterval;
+            //time.Enabled = true;
+        }
+        base.OnAfterRender(firstRender);
+    }
+    private async void OnTimeInterval(object sender, ElapsedEventArgs e)
+    {
+        await InvokeAsync(() => StateHasChanged());
+    }
+    public class FormPost
+    {
+        [Required]
+        public string Message { get; set; }
+    }
+}
