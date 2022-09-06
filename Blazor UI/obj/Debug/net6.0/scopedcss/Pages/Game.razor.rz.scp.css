@@ -9,7 +9,6 @@ textarea[b-l1p1iruafc] {
 
 /* improved for speech bubbles */
 .received[b-l1p1iruafc], .sent[b-l1p1iruafc] {
-    position: relative;
     font-family: arial;
     font-size: 1.1em;
     border-radius: 10px;
@@ -63,17 +62,51 @@ textarea[b-l1p1iruafc] {
 }
 
 .flexcontainer[b-l1p1iruafc] {
+    width: 100%;
+    height: 600px;
     display:flex;
-    justify-content:center;
     align-items: flex-start;
     gap: 10px;
+
 }
-.flexcontainer[b-l1p1iruafc] {
-    width: 100%;
-}
+
 .flexcontainer #scrollbox[b-l1p1iruafc] {
     flex-grow: 4;
 }
 .flexcontainer .userlist[b-l1p1iruafc] {
     flex-grow: 2;
+    width:300px;
+}
+
+.MoodBox[b-l1p1iruafc] {
+    width: 300px;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.MoodBox p[b-l1p1iruafc] {
+    background-color: darkblue;
+    color: white;
+}
+.InnerMood[b-l1p1iruafc]{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.InnerMood button[b-l1p1iruafc] {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px,solid,black;
+}
+
+#scrollbox[b-l1p1iruafc] {
+    width: 500px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    height: 500px;
 }

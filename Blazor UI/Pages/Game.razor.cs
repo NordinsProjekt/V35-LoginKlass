@@ -2,6 +2,9 @@
 using GlobalChat;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
+using Microsoft.JSInterop;
+using System.Reflection.Metadata;
+using System.Xml.Linq;
 
 namespace Blazor_UI.Pages
 {
@@ -66,13 +69,12 @@ namespace Blazor_UI.Pages
                 _isChatting = false;
             }
         }
-
+        
         private void BroadcastMessage(string name, string message)
         {
             bool isMine = name.Equals(_username, StringComparison.OrdinalIgnoreCase);
 
             _messages.Add(new Message(name, message, isMine));
-
             // Inform blazor the UI needs updating
             StateHasChanged();
         }
@@ -93,7 +95,11 @@ namespace Blazor_UI.Pages
                 StateHasChanged();
             }
         }
-
+        
+        private async Task ScrollIt()
+        {
+            await JS.InvokeAsync<object>("autoScroll");
+        }
         private async Task SendAsync(string message)
         {
             if (_isChatting && !string.IsNullOrWhiteSpace(message))
@@ -102,7 +108,9 @@ namespace Blazor_UI.Pages
 
                 _newMessage = string.Empty;
             }
+            
         }
+
         private class Message
         {
             public Message(string username, string body, bool mine)
