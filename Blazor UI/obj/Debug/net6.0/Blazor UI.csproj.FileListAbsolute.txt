@@ -92,3 +92,4 @@ C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Debug\net6.0\refint\Blazo
 C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Debug\net6.0\Blazor UI.pdb
 C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Debug\net6.0\Blazor UI.genruntimeconfig.cache
 C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Debug\net6.0\ref\Blazor UI.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Debug\net6.0\scopedcss\Pages\GameChat.razor.rz.scp.css

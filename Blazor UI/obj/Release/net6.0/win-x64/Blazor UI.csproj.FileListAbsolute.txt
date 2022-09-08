@@ -1,0 +1,45 @@
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\appsettings.Development.json
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\appsettings.json
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Blazor UI.staticwebassets.runtime.json
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Blazor UI.exe
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Blazor UI.deps.json
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Blazor UI.runtimeconfig.json
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Blazor UI.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Blazor UI.pdb
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Microsoft.Extensions.Features.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\System.IO.Pipelines.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Buffert.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\GlobalChat.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Interfaces.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Login.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Buffert.pdb
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\GlobalChat.pdb
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Interfaces.pdb
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\bin\Release\net6.0\win-x64\Login.pdb
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.csproj.AssemblyReference.cache
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.AssemblyInfoInputs.cache
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.AssemblyInfo.cs
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.csproj.CoreCompileInputs.cache
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.RazorAssemblyInfo.cache
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.RazorAssemblyInfo.cs
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\scopedcss\Pages\Game.razor.rz.scp.css
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\scopedcss\bundle\Blazor UI.styles.css
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\scopedcss\projectbundle\Blazor UI.bundle.scp.css
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.csproj.CopyComplete
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\refint\Blazor UI.dll
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.pdb
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\Blazor UI.genruntimeconfig.cache
+C:\Users\belfe\source\repos\V35 Unittest\Blazor UI\obj\Release\net6.0\win-x64\ref\Blazor UI.dll

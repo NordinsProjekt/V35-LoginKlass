@@ -15,12 +15,13 @@ namespace LoginClass
         private User? user;
         public bool LoginUser(string email, string password)
         {
-            if (CheckIfLoginIsValid(email, password))
-                return true;
             //kontrollera om det är en email som följer reglerna.
             if (CheckEmail(email))
                 if (CheckPassword(password)) //kontrollera om det är ett lösenord som följer reglerna.
-                    return false;
+                    if (CheckIfLoginIsValid(email, password)) //Inloggning finns?
+                        return true;
+                    else
+                        return false;
                 else
                     throw new ArgumentException("Password is not valid");
             else
@@ -60,13 +61,11 @@ namespace LoginClass
             List<object[]> userList = new List<object[]>()
             {
                 new object[] { "admin@uddevalla.se","Password123!","Admin","Admin" },
-                new object[] { "belfegorc4@gmail.com","Markus123!","Markus Nordin","User" },
-                new object[] { "eric@hotmail.se","EricUddevalla123!","Eric","User" }
+                new object[] { "markus@uddevalla.se","Password123!","Markus","User" },
+                new object[] { "eric@uddevalla.se","Password123!","Eric","User" }
             };
             return userList;
         }
-        
-
 
         private bool CheckPassword(string password)
         {

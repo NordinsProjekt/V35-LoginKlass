@@ -2,6 +2,7 @@
 @using System.ComponentModel.DataAnnotations;
 @using Interfaces
 @inject ILogin _login;
+@inject NavigationManager NavigationManager
 <PageTitle>Login User</PageTitle>
 <h3>Login @latestInfo</h3>
 @if (_login.IsLoggedIn() == false)
@@ -30,7 +31,8 @@
         try
         {
             if (_login.LoginUser(_form.Email, _form.Password))
-                latestInfo = "Inloggning lyckades";
+                NavigationManager.NavigateTo("/", false);
+                
             else
                 latestInfo = "Inloggning misslyckades";
         }

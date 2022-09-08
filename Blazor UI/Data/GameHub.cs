@@ -37,13 +37,4 @@ namespace Blazor_UI.Data
             await base.OnDisconnectedAsync(e);
         }
     }
-
-    public static class ConnectedUser
-    {
-        public static List<string> Ids = new List<string>();
-        public static List<string> GetAllConnectedUsers()
-        {
-            return Ids;
-        }
-    }
 }

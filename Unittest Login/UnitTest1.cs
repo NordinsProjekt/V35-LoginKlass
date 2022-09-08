@@ -5,11 +5,6 @@ namespace Unittest_Login
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
-        {
-        }
-
-        [TestMethod]
         [DataRow("admin@uddevalla.se","Password123!")]
         public void TestLoginUser_WithValidEmailAndPassword_ShouldReturnTrue(string email, string password)
         {

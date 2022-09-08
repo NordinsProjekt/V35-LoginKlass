@@ -1,0 +1,12 @@
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\bin\Release\net6.0\Buffert.deps.json
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\bin\Release\net6.0\Buffert.dll
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\bin\Release\net6.0\Buffert.pdb
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\obj\Release\net6.0\Buffert.csproj.AssemblyReference.cache
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\obj\Release\net6.0\Buffert.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\obj\Release\net6.0\Buffert.AssemblyInfoInputs.cache
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\obj\Release\net6.0\Buffert.AssemblyInfo.cs
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\obj\Release\net6.0\Buffert.csproj.CoreCompileInputs.cache
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\obj\Release\net6.0\Buffert.dll
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\obj\Release\net6.0\refint\Buffert.dll
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\obj\Release\net6.0\Buffert.pdb
+C:\Users\belfe\source\repos\V35 Unittest\Buffert\obj\Release\net6.0\ref\Buffert.dll

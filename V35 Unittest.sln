@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalChat", "GlobalChat\Gl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unittest GlobalChat", "Unittest GlobalChat\Unittest GlobalChat.csproj", "{657A4E4A-B1D5-4169-BC43-D719D56E14C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buffert", "Buffert\Buffert.csproj", "{12722A58-1F38-4AD4-9387-DF1EDA22A3A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buffert", "Buffert\Buffert.csproj", "{12722A58-1F38-4AD4-9387-DF1EDA22A3A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

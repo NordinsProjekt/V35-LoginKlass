@@ -1,0 +1,114 @@
+/* improved for chat text box */
+textarea[b-ug433s2yjm] {
+    border: 1px dashed #888;
+    border-radius: 5px;
+    width: 80%;
+    overflow: auto;
+    background: #f7f7f7
+}
+
+/* improved for speech bubbles */
+.received[b-ug433s2yjm], .sent[b-ug433s2yjm] {
+    font-family: arial;
+    font-size: 1.1em;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+    .received[b-ug433s2yjm]:after, .sent[b-ug433s2yjm]:after {
+        content: '';
+        border: 20px solid transparent;
+        position: absolute;
+        margin-top: -30px;
+    }
+
+.sent[b-ug433s2yjm] {
+    background: #03a9f4;
+    color: #fff;
+    margin-left: 10%;
+    top: 50%;
+    text-align: right;
+}
+
+.received[b-ug433s2yjm] {
+    background: #4CAF50;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10%;
+}
+
+.sent[b-ug433s2yjm]:after {
+    border-left-color: #03a9f4;
+    border-right: 0;
+    right: -20px;
+}
+
+.received[b-ug433s2yjm]:after {
+    border-right-color: #4CAF50;
+    border-left: 0;
+    left: -20px;
+}
+
+/* div within bubble for name */
+.user[b-ug433s2yjm] {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000;
+}
+
+.msg[b-ug433s2yjm] {
+    /*display: inline;*/
+}
+
+.flexcontainer[b-ug433s2yjm] {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+    .flexcontainer #scrollbox[b-ug433s2yjm] {
+        flex-grow: 4;
+    }
+
+    .flexcontainer .userlist[b-ug433s2yjm] {
+        flex-grow: 2;
+        width: 300px;
+    }
+
+.MoodBox[b-ug433s2yjm] {
+    width: 300px;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+    .MoodBox p[b-ug433s2yjm] {
+        background-color: darkblue;
+        color: white;
+    }
+
+.InnerMood[b-ug433s2yjm] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+    .InnerMood button[b-ug433s2yjm] {
+        border-radius: 8px;
+        padding: 10px;
+        border: 1px,solid,black;
+    }
+
+#scrollbox[b-ug433s2yjm] {
+    width: 500px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    height: 500px;
+}

@@ -1,0 +1,67 @@
+﻿
+@using Interfaces;
+@inject ILogin _login;
+@inject Buffert.GameRoom _gameRoom;
+@inject NavigationManager navigationManager
+@inject IJSRuntime JS
+@using Microsoft.AspNetCore.SignalR.Client;
+@using Blazor_UI.Data;
+
+<h2>Pre-game chat</h2>
+<hr />
+@if (!_isChatting)
+{
+    <button class="btn btn-default" @onclick="@Chat">Join room</button>
+}
+else
+{
+    //Ställer in humöret på användaren
+    <div class="MoodBox">
+        <p>Mood box</p>
+        <div class="InnerMood">
+            <button style="background-color:#2ECC71" @onclick="@(() => UpdateMood("Happy"))">Happy</button>
+            <button style="background-color:#2ECC71" @onclick="@(() => UpdateMood("Bored"))">Bored</button>
+            <button style="background-color:#2ECC71" @onclick="@(() => UpdateMood("Sad"))">Sad</button>
+        </div>
+    </div>
+    <div class="alert alert-secondary mt-4" role="alert">
+        <span class="oi oi-person mr-2" aria-hidden="true"></span>
+        <span>You are connected as <b>@_username</b></span>
+        <button class="btn btn-sm btn-warning ml-md-auto" @onclick="@DisconnectAsync">Disconnect</button>
+    </div>
+    <p>@_message</p>
+    // display messages
+    <div class="flexcontainer">
+        <div id="scrollbox">
+            @foreach (var item in _messages)
+            {
+                @if (item.IsNotice)
+                {
+                    <div class="alert alert-info">@item.Body</div>
+                }
+                else
+                {
+                    <div class="@item.CSS">
+                        <div class="user">@item.Username</div>
+                        <div class="msg">@item.Body</div>
+                    </div>
+                }
+            }
+            <hr />
+        </div>
+        <div class="userlist">
+            <b>Userlist</b><br />
+            @foreach (var g in _gameRoom.GetAllGamers())
+            {
+                var temp = g.username + " [" + g.mood + "]";
+                @temp <br />
+            }
+            <p></p>
+        </div>
+    </div>
+    <div id="footer">
+        <input type="text" placeholder="enter your comment" @bind="@_newMessage"></input>
+        <button @onclick="@(() => SendAsync(_newMessage))">Send</button>
+    </div>
+
+}

@@ -1,0 +1,15 @@
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\bin\Release\net6.0\GlobalChat.deps.json
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\bin\Release\net6.0\GlobalChat.dll
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\bin\Release\net6.0\GlobalChat.pdb
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\bin\Release\net6.0\Interfaces.dll
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\bin\Release\net6.0\Interfaces.pdb
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\obj\Release\net6.0\GlobalChat.csproj.AssemblyReference.cache
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\obj\Release\net6.0\GlobalChat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\obj\Release\net6.0\GlobalChat.AssemblyInfoInputs.cache
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\obj\Release\net6.0\GlobalChat.AssemblyInfo.cs
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\obj\Release\net6.0\GlobalChat.csproj.CoreCompileInputs.cache
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\obj\Release\net6.0\GlobalChat.csproj.CopyComplete
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\obj\Release\net6.0\GlobalChat.dll
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\obj\Release\net6.0\refint\GlobalChat.dll
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\obj\Release\net6.0\GlobalChat.pdb
+C:\Users\belfe\source\repos\V35 Unittest\GlobalChat\obj\Release\net6.0\ref\GlobalChat.dll
